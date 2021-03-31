@@ -187,8 +187,8 @@ class do:
                 else:
                     self.check_time()
                     clear()
-                    self.printc.red("You Get Blocked Again !")
-                    sleep(4)
+                    self.printc.red("You Get Blocked Again We Will Sleep 2Min!")
+                    sleep(60+60)
                     clear()
                     self.time +=20
                     self.printc.yellow("We Up Your Sleep For 20 Sec More. \n Your Sleep Now {sleep}".format(sleep = self.time))
@@ -197,5 +197,4 @@ class do:
         if self.time > self.min: self.time = self.frist_sleep; self.printc.red(f"You Sleep Time Exceed 60 second So We Rest it to {self.frist_sleep}'s")
         else: pass
         
-
 #200 :P
