@@ -102,7 +102,7 @@ class do:
                     if '{"status":"ok"}' in accpet.text:                                   
                         clear()
                         self.count+=1
-                        print(Fore.GREEN + Style.BRIGHT + f'Done Accept.\n Username : {self.username}\n His Followers is ({self.follower})\n'+Style.RESET_ALL+Fore.RED + Style.BRIGHT +f'Check Num:{self.count}'+ Style.RESET_ALL)
+                        print(Fore.GREEN + Style.BRIGHT + f'Done Accept.\n Username : {self.username}'+Style.RESET_ALL+Fore.RED + Style.BRIGHT +f'Check Num:{self.count}'+ Style.RESET_ALL)
                     if f:
                             self.follow(self.public_id)
                     else: pass
