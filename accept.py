@@ -194,7 +194,7 @@ class do:
                     self.printc.yellow("We Up Your Sleep For 20 Sec More. \n Your Sleep Now {sleep}".format(sleep = self.time))
                     sleep(8)   
     def check_time(self):
-        if self.time > self.min: self.time = self.frist_sleep; self.printc.red(f"You Sleep Time Exceed 60 second So We Rest it to {self.frist_sleep}'s")
+        if self.time > self.min: self.time = self.frist_sleep; self.printc.red(f"You Sleep Time Exceed 60 second So We Rest it to {self.frist_sleep}'s");sleep(5);clear()
         else: pass
         
 #200 :P
