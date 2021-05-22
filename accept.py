@@ -22,7 +22,7 @@ class do:
     block_or_igrone_or_pass = ''
     def __init__(self, cookie) -> None:
         clear()
-        self.printc.yellow("if someone follow you and unfollow you then follow you\n Do You to [b/i/p]\n p = pass him \n b = block him\n i = igrone him\n `Choose By letter`")
+        self.printc.yellow("if someone follow you and unfollow you then follow you\n Do You want to [b/i/p]\n p = pass him \n b = block him\n i = igrone him\n `Choose By letter`")
         self.block_or_igrone_or_pass = input()
         clear()
         from urls import url_set_private
