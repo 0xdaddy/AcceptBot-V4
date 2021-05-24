@@ -7,7 +7,7 @@
 * options to `spam follow` block it etc...
 * option to accept guys who have a certain number of followers and more soon...
 
-##A Simple System to work with the block
+## A Simple System to work with the block
 * It deals with the sleep system automatically, raising it and lowering it at appropriate times
 
 ## Usage for python guys:
