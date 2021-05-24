@@ -9,6 +9,13 @@
 * option to accept guys who have a certain number of followers and more soon...
 
 
-## Usage:
+## Usage for python guys:
 1. run main.py
 2. Enjoy :)
+
+## Usage for normal bois:
+1. go to exe file
+2. run main.exe
+3. Enjoy :)
+
+
